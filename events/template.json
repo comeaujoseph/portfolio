@@ -1,0 +1,19 @@
+{  
+   "id":76,
+   "title":"name of project",
+   "category":"general category",
+   "more_info":"link to further description of project",
+   "content":"<p>Short description of project.<\/p>",
+   "longDates":"data created",
+   "language":"tool used",
+   "url":"",
+   "color_scheme":{  
+      "id":10,
+      "color_1":"rgb(51,110,251)",
+      "color_2":"rgb(255,255,255)",
+      "color_3":"rgb(164,231,254)",
+      "created_at":"2015-10-29 09:48:48",
+      "updated_at":"2015-10-29 09:48:48",
+      "user_id":0
+   }
+}

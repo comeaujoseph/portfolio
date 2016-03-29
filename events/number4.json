@@ -1,0 +1,19 @@
+{  
+   "id":81,
+   "title":"Permutation",
+   "category":"Data structure",
+   "more_info":"http:\/\/www.thelowry.com\/event\/right-here-right-now",
+   "content":"<p>Using a linked list: generate the all possible permutations (an arrangement of objects in specific order) for the given string.<\/p>",
+   "longDates":"Fall 2014",
+   "language":"Java",
+   "url":"https:\/\/see-and-do.com\/events\/right-here-right-now-exhibition",
+   "color_scheme":{  
+      "id":4,
+      "color_1":"rgb(67,51,91)",
+      "color_2":"rgb(255,255,255)",
+      "color_3":"rgb(243,167,197)",
+      "created_at":"2015-10-29 09:48:48",
+      "updated_at":"2015-10-29 09:48:48",
+      "user_id":0
+   }
+}
