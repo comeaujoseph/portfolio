@@ -1,11 +1,11 @@
 {  
    "id":110,
-   "title":"Red/Black Trees",
-   "category":"Data Structures",
+   "title":"TCP Client/Server",
+   "category":"Networking",
    "more_info":"http:\/\/www.thelowry.com\/event\/right-here-right-now",
    "content":"<p>A binary search tree in which each node is colored red or black such that the root is black, the children of a red node are black, and every path from the root to a 0-node or a 1-node has the same number of black nodes.<\/p>",
    "longDates":"Fall 2014",
-   "language":"Java",
+   "language":"C",
    "url":"https:\/\/see-and-do.com\/events\/right-here-right-now-exhibition",
    "color_scheme":{  
       "id":5,
