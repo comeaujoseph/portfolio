@@ -39,8 +39,8 @@ function setEventDetails(e, t) {
         $(".js-event-info-date").html(e.longDates), 
         $(".js-event-info-time").html(e.language), 
         $(".js-event-info-venue").html(e.category), 
-        $(".js-event-info-fb").attr("href", "https://www.facebook.com/sharer/sharer.php?u=" + encodeURI(e.url)), 
-        $(".js-event-info-twitter").attr("href", "https://twitter.com/home?status=" + encodeURI(e.title + " " + e.url)), 
+        //$(".js-event-info-fb").attr("href", "https://www.facebook.com/sharer/sharer.php?u=" + encodeURI(e.url)), 
+        //$(".js-event-info-twitter").attr("href", "https://twitter.com/home?status=" + encodeURI(e.title + " " + e.url)), 
         null != e.more_info ? $(".js-event-info-wrapper").html('<a href="' + e.more_info + '" target="_blank">More Info</a>') : $(".js-event-info-wrapper").html(""), 
         $(".event-info .body-copy").html("<p>" + e.content + "</p>");
         var n;
@@ -48,7 +48,7 @@ function setEventDetails(e, t) {
         n += n += ".event-primary-color { color: " + e.color_scheme.color_2 + "; fill: " + e.color_scheme.color_2 + ";}", 
         n += ".slash { stroke: " + e.color_scheme.color_3 + ";}", 
         n += ".event-secondary-color { color: " + e.color_scheme.color_3 + "; fill: " + e.color_scheme.color_3 + ";}", 
-        n += ".event-info .body-copy a, .event-info .meta-data a { color: " + e.color_scheme.color_3 + ";}", 
+        //n += ".event-info .body-copy a, .event-info .meta-data a { color: " + e.color_scheme.color_3 + ";}", 
         n += ".event-info .js-event-info-wrapper a { color: " + e.color_scheme.color_3 + ";}", 
         n += ".event-info .event-info--share a:hover { color: " + e.color_scheme.color_3 + ";}", $("#js-event-color-scheme").remove(), $('<style id="js-event-color-scheme" type="text/css">' + n + "</style>").appendTo("head"), Sidebar.animOpen(), t && t(e)
     })

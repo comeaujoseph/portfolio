@@ -1,0 +1,19 @@
+{  
+   "id":110,
+   "title":"TCP Client/Server",
+   "category":"Networking",
+   "more_info":"https:\/\/github.com\/comeaujoseph\/TCP-Client-Server",
+   "content":"<p>The goal was to implement both a TCP server and a TCP client piece of software. The server is to accept a connection from a client and receive a text message of no more than 256 characters. It will convert the message to an encoded message as detailed next. Your server will convert each character by replacing it with the next character in the ASCII sequence. The client will connect to the server using the same port and then pass a message to the server. The server will respond with the message converted to the encoded string. The client will then display the converted message to the monitor.<\/p>",
+   "longDates":"02.03.16\u201414.03.16",
+   "language":"C",
+   "url":"http:\/\/www.josephthomascomeau.com/\/events\/tcp",
+   "color_scheme":{  
+      "id":5,
+      "color_1":"rgb(45,230,139)",
+      "color_2":"rgb(255,255,255)",
+      "color_3":"rgb(25,77,25)",
+      "created_at":"2015-10-29 09:48:48",
+      "updated_at":"2015-10-29 09:48:48",
+      "user_id":0
+   }
+}

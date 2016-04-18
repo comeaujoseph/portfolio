@@ -1,0 +1,19 @@
+{  
+   "id":125,
+   "title":"Cracking The Interview",
+   "category":"Website",
+   "more_info":"https:\/\/github.com\/comeaujoseph",
+   "content":"<p>Coming Soon<\/p>",
+   "longDates":"01.02.16\u2014present",
+   "language":"HTML, CSS, JS",
+   "url":"http:\/\/www.josephthomascomeau.com/\/events\/cracking",
+   "color_scheme":{  
+      "id":6,
+      "color_1":"rgb(158,238,224)",
+      "color_2":"rgb(255,255,255)",
+      "color_3":"rgb(13,97,79)",
+      "created_at":"2015-10-29 09:48:48",
+      "updated_at":"2015-10-29 09:48:48",
+      "user_id":0
+   }
+}
