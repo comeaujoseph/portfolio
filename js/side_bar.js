@@ -26,7 +26,7 @@ function changeEventInfo(e, t, n) {
         setEventDetails(o + ".json", function(t) {
             n || stateHandler.push({
                 url: o,
-                title: t.title + " – jc",
+                title: "Joey Comeau",
                 eventId: e.attr("id")
             })
         }), $(".event--active").removeClass("event--active"), e.addClass("event--active")

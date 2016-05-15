@@ -576,10 +576,7 @@ header nav a:hover:after {
     color: #003da6
 }
 
-.event a:hover,
-.event.event--active a {
-    color: #003da6
-}
+
 
 .event.event--active a .event-item-icon {
     -webkit-transform: rotate(0)

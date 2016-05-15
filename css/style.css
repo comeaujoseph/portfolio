@@ -104,7 +104,8 @@ h2 {
     -webkit-animation-timing-function: ease-in-out;
     animation-timing-function: ease-in-out;
     -webkit-animation-iteration-count: 1;
-    animation-iteration-count: 1; }
+    animation-iteration-count: 1; 
+  }
 
 /* Fade In Animation */
 @-webkit-keyframes fadeUp {
@@ -434,6 +435,7 @@ h2 {
 }
 
 .main__project-title:hover, .main__resume:hover {
+  
   opacity: 0.6; 
 }
 
