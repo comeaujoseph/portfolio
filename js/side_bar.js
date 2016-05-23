@@ -170,18 +170,28 @@ var Sidebar = function() {
 //http://stackoverflow.com/questions/7614574/dollar-sign-before-self-declaring-anonymous-function-in-javascript
 $(function() {
     FastClick.attach(document.body);
+
     var e = $(".event"),
         t = $(".js-close-sidebar"),
         n = $(".filter");
-    $(".event.event--active").length && changeEventInfo($(".event.event--active"), e), t.on("click touch", function(e) {
+
+    $(".event.event--active").length && changeEventInfo($(".event.event--active"), e);
+    
+    //closing sidebar by pressing top-right X
+    t.on("click touch", function(e) {
         e.preventDefault(), stateHandler.push({
             url: "/",
             title: "Joey Comeau",
             eventId: null
         }), Sidebar.animClose()
-    }), e.on("click touch", function(t) {
+    });
+    
+    //clicking one of the project links
+    e.on("click touch", function(t) {
         t.preventDefault(), changeEventInfo($(this), e)
-    }), $(window).keydown(function(t) {
+    }); 
+
+    $(window).keydown(function(t) {
         if ($eventItem = $(".event.event--active").length ? $(".event.event--active") : $(".event:first"), eventItemIndex = e.index($eventItem), 40 === t.which) {
             var n = eventItemIndex < e.length - 1 ? eventItemIndex + 1 : 0;
             changeEventInfo($(e[n]), e)
@@ -189,7 +199,13 @@ $(function() {
             var n = eventItemIndex > 0 ? eventItemIndex - 1 : e.length - 1;
             changeEventInfo($(e[n]), e)
         }
-    }), $(window).on("popstate", function(t) {
-        t.originalEvent.state && t.originalEvent.state.eventId ? changeEventInfo($("#" + t.originalEvent.state.eventId), e, !0) : Sidebar.animClose()
+    });
+
+    $(window).on("popstate", function(t) {
+        if (t.originalEvent.state && t.originalEvent.state.eventId) {
+            changeEventInfo($("#" + t.originalEvent.state.eventId), e, !0)
+        } else {
+            Sidebar.animClose()
+        }
     })
 });
