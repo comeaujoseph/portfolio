@@ -1,0 +1,23 @@
+// style order:
+//  positioning
+//  display & box model
+//  color
+//  text
+//  other
+
+@import url('https://fonts.googleapis.com/css?family=Rubik:400,500,700,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Karla:400,700|Lato:400,700|Roboto:400,500,700&display=swap');
+
+@import 'init';
+
+// resets
+@import 'vendor/normalize';
+
+// framework
+@import 'components/index';
+
+
+
+#app {
+    padding: 0 30px;
+}

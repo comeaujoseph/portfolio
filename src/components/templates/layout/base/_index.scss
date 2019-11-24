@@ -1,0 +1,110 @@
+
+#layout {
+    margin: 0 auto;
+    padding: 19px 0 35px 0;
+    font-size: $font-size-4;
+
+    @media only screen and (min-width: 769px) {
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+        grid-column-gap: 30px;
+        padding-top: 0;
+    }
+}
+
+.layout__header {
+    position: fixed;
+    top: 0;
+    right: 30px;
+    bottom: 0;
+    text-align: right;
+    z-index: 10;
+    pointer-events: none;
+
+    h1 {
+        padding-top: 20px;
+        background: transparent;
+        span {
+            padding: 10px 0 10px 0;
+        }
+    }
+
+    @media only screen and (min-width: 769px) {
+        right: 50%;
+        max-width: 1200px;
+        width: calc(100% - 60px);
+        transform: translate(50%, 0);
+
+        h1 {
+            padding-top: 25px;
+            background: none;
+        }
+    }
+}
+
+.layout__left {
+    padding-top: 1px;
+    padding-bottom: 10px;
+
+    @media only screen and (min-width: 769px) {
+        padding-top: 0;
+    }
+
+    ul {
+        padding: 10px 0 10px 0;
+
+        li {
+            margin-bottom: 5px;
+
+            &::before {
+                margin-right: 10px;
+                content: "—";
+            }
+        }
+    }
+}
+
+.layout__left-inner {
+    top: 0;
+}
+
+.layout__left-header {
+    color: $color-text-header;
+    margin-bottom: 15px;
+    top: 20px;
+    z-index: 10;
+
+    .icon {
+        display: inline-block;
+        width: 100%;
+        color: #363636;
+        font-weight: $font-weight-bold;
+    }
+
+    @media only screen and (min-width: 769px) {
+        margin-bottom: 25px;
+        top: 0;
+        padding-top: 25px;
+        margin-bottom: -1px;
+        padding-bottom: 24px;
+        background: white;
+        z-index: 1;
+        border-bottom: 1px rgba(0, 0, 0, 0.85) solid;
+    }
+}
+
+.layout__left-body {
+    margin-bottom: 6px;
+    margin-top: 0;
+    padding-top: 20px;
+
+    a {
+        font-weight: $font-weight-thick;
+    }
+}
+
+.layout__left-more-info {
+    margin-top: 0;
+    margin-bottom: 10px;
+    padding-top: 9px;
+}

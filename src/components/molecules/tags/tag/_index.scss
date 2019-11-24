@@ -1,0 +1,23 @@
+
+.tag {
+    display: inline-block;
+    min-width: 20px;
+    margin-bottom: 4px;
+    margin-right: 2px;
+    padding: 5px 8px;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 3px;
+    border-color: #d4d4d4;
+    color: $color-text-default;
+    font-size: 100%!important;
+    line-height: 1rem;
+    text-align: center;
+    text-decoration: none;
+    -moz-transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    cursor: pointer;
+}

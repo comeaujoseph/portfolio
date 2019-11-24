@@ -1,0 +1,19 @@
+// framework default
+
+html {
+    background: #FFFFFF;
+    color: $color-text-default;
+    -webkit: {
+        tap-highlight-color: rgba(0, 0, 0, 0);
+    }
+    font-family: $karla-font-family;
+    font-size: 100%;
+    line-height: $var-line-height-text;
+}
+
+body {
+    background: transparent;
+    font-size: $font-size-3;
+    line-height: $line-height-text;
+    border-color: $color-border;
+}

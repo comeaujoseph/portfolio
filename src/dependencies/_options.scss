@@ -1,0 +1,61 @@
+// css framework options
+
+//-------------------------------------
+// color
+//-------------------------------------
+$color-text-default: #37352F;   // body text color
+$color-text-header: #f07060;
+$color-text-placeholder: #6B6D70;;
+$color-text-link: #0070D2;
+$color-text-link-hover: #005FB2;
+$color-text-link-active: #00396B;
+$color-background-highlight-search: #fff03f;
+$color-border: rgba(0, 0, 0, 0.85);
+
+
+//-------------------------------------
+// text
+//-------------------------------------
+$lato-font-family: 'Lato', sans-serif;
+$roboto-font-family: 'Roboto', sans-serif;
+$karla-font-family: 'Karla', sans-serif;
+
+$font-size-1: 0.625rem;
+$font-size-2: 0.75rem;
+$font-size-3: 0.825rem;
+$font-size-4: 0.875rem;
+$font-size-5: 1rem;
+$font-size-6: 1.125rem;
+$font-size-7: 1.25rem;
+$font-size-8: 1.5rem;
+$font-size-9: 1.75rem;
+$font-size-10: 2rem;
+$font-size-11: 2.625rem;
+
+$font-weight-light: 300;
+$font-weight-regular: 400;
+$font-weight-thick: 600;
+$font-weight-bold: 700;
+
+
+//-------------------------------------
+// spacing
+//-------------------------------------
+$spacing-none: 0;
+$spacing-xxx-small: 0.125rem;
+$spacing-xx-small: 0.25rem;
+$spacing-x-small: 0.5rem;
+$spacing-small: 0.75rem;
+$spacing-medium: 1rem;
+$spacing-large: 1.5rem;
+$spacing-x-large: 2rem;
+$spacing-xx-large: 3rem;
+
+
+//-------------------------------------
+// line height
+//-------------------------------------
+$line-height-heading: 1.25rem;
+$line-height-text: 1.5rem;
+$line-height-reset: 1rem;
+$var-line-height-text: 1.5rem;

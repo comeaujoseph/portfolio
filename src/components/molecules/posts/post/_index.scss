@@ -1,0 +1,54 @@
+
+.post {
+    position: relative;
+    padding: 20px 0 20px 0;
+    border-top: 1px $color-border solid;
+    color: $color-text-default;
+}
+
+.post__inner {
+    color: $color-text-default;
+    text-decoration: none;
+    cursor: pointer;
+
+    &:hover {
+        color: $color-text-default;
+
+        .post__title {
+            color: #3582FB;
+        }
+    }
+
+    @media only screen and (min-width: 769px) {
+        display: grid;
+        grid-template-columns: 3fr 5fr 1fr;
+        grid-column-gap: 30px;
+    }
+}
+
+.post__child {
+    padding: 0;
+}
+
+.post__title {
+    font-weight: 600;
+}
+
+.post__summary {
+    text-align: left;
+
+    @media only screen and (min-width: 769px) {
+        width: auto;
+    }
+}
+
+.post__date {
+    position: absolute;
+    top: 20px;
+    right: 0;
+    text-align: right;
+
+    @media only screen and (min-width: 769px) {
+        position: static;
+    }
+}
