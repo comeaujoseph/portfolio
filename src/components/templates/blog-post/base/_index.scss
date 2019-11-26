@@ -1,6 +1,69 @@
 
+.blog-post {
+    font-size: $font-size-4;
+}
+
 .blog-post__inner {
     margin-bottom: 6px;
     margin-top: 0;
     padding-top: 20px;
+    font-size: $font-size-5;
+    line-height: 1.8rem;
+
+    p {
+        padding: 0 0 10px 0;
+    }
+
+    p:not(:first-child) {
+        padding-top: 10px;
+    }
+}
+
+.blog-post__list {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.blog-post__references {
+    margin: 25px 0;
+
+    h3 {
+        font-weight: 600;
+    }
+
+    a {
+        display: block;
+    }
+}
+
+.blog-post__note {
+    width: max-content;
+    padding: 10px;
+    border: 1px solid #FCDB49;
+    border-radius: 4px;
+    background: #FFFCEA;
+    font-size: .85rem;
+
+}
+
+//-------------------------------------
+// code
+//-------------------------------------
+
+.blog-post__inner {
+    code {
+        font-size: $font-size-2 !important;
+        line-height: 1.3rem !important;
+    }
+}
+
+.code-block-header {
+    font-weight: 600;
+    font-size: .875rem;
+    font-style: italic;
 }
