@@ -8,14 +8,14 @@ class Home extends Component {
     render () {
         return (
             <div id="home">
-                <Header title="recent posts" subtitle="updated 11.24.2019" />
+                <Header title="recent posts" subtitle="updated 12.01.2019" />
                 <Posts>
                     <Post
                         title="EBS volume resizing in EKS"
-                        summary="Able rent long in do we. Uncommonly no it announcing melancholy an in. Mirth learn it he given.
-                        Secure shy favour length all twenty denote. He felicity no an at packages answered opinions juvenile." 
-                        date="11.24.2019"
-                        link="/post/112419" />
+                        summary="Deploy, manage, and use an AWS elastic block volume (EBS) in Kubernetes. Resize an
+                        existing EBS volume, increase claim size, and grow the storage capacity of a pod."
+                        date="12.01.2019"
+                        link="/post/120119" />
                 </Posts>
             </div>
         );

@@ -30,7 +30,7 @@ const Layout = (props) => {
                     <h3 className="layout__left-body">
                         My name is Joey Comeau, I am a software developer and web designer based in San Franisco, CA. I'm currently
                         working at <a href="https://www.barracuda.com"><em>Barracuda Networks</em></a>, where I am the lead developer
-                        and architect for multiple microservices. In my free time, I work on <a href="http://thecompleti.st"><em>xyz</em></a>,
+                        and architect for multiple microservices. In my free time, I work on <a href="https://github.com/comeaujoseph"><em>xyz</em></a>,
                         an open source design system.
                     </h3>
                     <h3 className="layout__left-more-info">
@@ -38,17 +38,17 @@ const Layout = (props) => {
                     </h3>
 
                     <ul>
-                        <li><a href="https://github.com/jcomeau-barracuda">github.com/jcomeau-barracuda</a></li>
-                        <li><a href="https://www.linkedin.com/">linkedin.com/joeycomeau</a></li>
-                        <li><a href="https://hub.docker.com/u/jcomeau">hub.docker.com/jcomeau</a></li>
+                        <li><a href="https://github.com/comeaujoseph" target="_blank">github.com/comeaujoseph</a></li>
+                        <li><a href="https://www.linkedin.com/in/joey-comeau-27329390" target="_blank">linkedin.com/joeycomeau</a></li>
+                        <li><a href="https://hub.docker.com/u/jcomeau" target="_blank">hub.docker.com/jcomeau</a></li>
                         <li><a href="mailto:comeau.joey@gmail.com" target="_top">comeau.joey@gmail.com</a></li>
                     </ul>
                     <Tags>
-                        <Tag>Java</Tag>
+                        <Tag>Kubernetes</Tag>
                     </Tags>
                 </div>
             </section>
-            <section className="right">
+            <section className="layout__right">
                 { props.children}
             </section>
         </main>
