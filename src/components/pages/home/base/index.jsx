@@ -16,6 +16,11 @@ class Home extends Component {
                         existing EBS volume, increase claim size, and grow the storage capacity of a pod."
                         date="12.01.2019"
                         link="/post/120119" />
+                    <Post
+                        title="Capturing Client IPs: AWS + Kubernetes + NGINX"
+                        summary="Receive client connection information in NGINX with AWS and Kubernetes"
+                        date="12.15.2019"
+                        link="/post/121519" />
                 </Posts>
             </div>
         );

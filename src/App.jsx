@@ -4,7 +4,10 @@ import { BrowserRouter, Switch, Route } from "react-router-dom";
 import Layout from './components/templates/layout/base';
 import Home from './components/pages/home/base';
 import About from './components/pages/about';
+
+// posts
 import P120119 from './components/pages/120119';
+import P121519 from './components/pages/121519';
 
 class App extends Component {
     render () {
@@ -15,6 +18,7 @@ class App extends Component {
                     <Layout>
                         <Route exact path="/"><Home /></Route>
                         <Route path="/post/120119"><P120119 /></Route>
+                        <Route path="/post/121519"><P121519 /></Route>
                     </Layout>
                 </Switch>
             </BrowserRouter>
