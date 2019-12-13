@@ -42,13 +42,13 @@
 }
 
 .blog-post__note {
-    width: max-content;
+    // width: max-content;
     padding: 10px;
     border: 1px solid #FCDB49;
     border-radius: 4px;
     background: #FFFCEA;
     font-size: .85rem;
-
+    font-weight: bold;
 }
 
 //-------------------------------------
@@ -66,4 +66,20 @@
     font-weight: 600;
     font-size: .875rem;
     font-style: italic;
+}
+
+//-------------------------------------
+// Problem Statement
+//-------------------------------------
+
+.problem {
+    padding: 1rem;
+    background-color: #f7f9fb;
+    color: rgba(12,21,46,.64);
+
+    h3 {
+        color: #212529;
+        text-align: left;
+        font-weight: bold;
+    }
 }

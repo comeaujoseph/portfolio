@@ -202,12 +202,12 @@ class P120119 extends Component {
 
                 <section className="blog-post__references">
                     <h3>References</h3>
-                    <a>https://kubernetes.io/docs/concepts/storage/persistent-volumes/</a>
-                    <a>https://kubernetes.io/docs/concepts/storage/persistent-volumes/#retain</a>
-                    <a>https://stackoverflow.com/questions/50667437/what-to-do-with-released-persistent-volume</a>
-                    <a>https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/recognize-expanded-volume-linux.html</a>
-                    <a>https://kubernetes.io/blog/2018/07/12/resizing-persistent-volumes-using-kubernetes/</a>
-                    <a>https://gardener.cloud/050-tutorials/content/howto/ssh-into-node/</a>
+                    <a href="https://kubernetes.io/docs/concepts/storage/persistent-volumes/" target="_blank">https://kubernetes.io/docs/concepts/storage/persistent-volumes/</a>
+                    <a href="https://kubernetes.io/docs/concepts/storage/persistent-volumes/#retain" target="_blank">https://kubernetes.io/docs/concepts/storage/persistent-volumes/#retain</a>
+                    <a href="https://stackoverflow.com/questions/50667437/what-to-do-with-released-persistent-volume" target="_blank">https://stackoverflow.com/questions/50667437/what-to-do-with-released-persistent-volume</a>
+                    <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/recognize-expanded-volume-linux.html" target="_blank">https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/recognize-expanded-volume-linux.html</a>
+                    <a href="https://kubernetes.io/blog/2018/07/12/resizing-persistent-volumes-using-kubernetes/" target="_blank">https://kubernetes.io/blog/2018/07/12/resizing-persistent-volumes-using-kubernetes/</a>
+                    <a href="https://gardener.cloud/050-tutorials/content/howto/ssh-into-node/" target="_blank">https://gardener.cloud/050-tutorials/content/howto/ssh-into-node/</a>
                 </section>
 
             </BlogPost>

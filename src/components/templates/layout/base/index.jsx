@@ -45,6 +45,7 @@ const Layout = (props) => {
                     </ul>
                     <Tags>
                         <Tag>Kubernetes</Tag>
+                        <Tag>NGINX</Tag>
                     </Tags>
                 </div>
             </section>

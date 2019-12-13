@@ -25,7 +25,7 @@ const Term = (props) => {
             <span className="term__tooltip">
                 <span>
                     { props.children }
-                    { hasReadMore ? <a href="/glossary/#self-sovereign-technology">Read more</a> : null }
+                    { hasReadMore ? <a href="#">Read more</a> : null }
                 </span>
             </span>
         </abbr>
