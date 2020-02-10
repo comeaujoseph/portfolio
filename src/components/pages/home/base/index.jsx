@@ -8,7 +8,7 @@ class Home extends Component {
     render () {
         return (
             <div id="home">
-                <Header title="recent posts" subtitle="updated 12.01.2019" />
+                <Header title="recent posts" subtitle="updated 02.09.2020" />
                 <Posts>
                     <Post
                         title="EBS volume resizing in EKS"
@@ -21,6 +21,11 @@ class Home extends Component {
                         summary="Receive client connection information in NGINX with AWS and Kubernetes"
                         date="12.15.2019"
                         link="/post/121519" />
+                    <Post
+                        title="Java Debugging: High CPU Usage"
+                        summary="Troubleshooting a Java process that is using a large amount of CPU"
+                        date="02.09.2020"
+                        link="/post/020920" />
                 </Posts>
             </div>
         );

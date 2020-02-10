@@ -17,8 +17,8 @@ class About extends Component {
                         Python, React, and malware analysis. I have the fortunate opportunity to work with these technologies as a lead developer
                         and architect for Barracuda Networks. Some of the most noteworthy Barracuda projects I have worked on are LinkProtect, Cloud Security Guardian,
                         and ATPaaP. In my spare time, I do web design and I am in the process of building a design system called XYZ design; you
-                        can follow the project on GitHub. Outside of technology I enjoy hiking, mountain biking, and surfing. My 2019 goal is
-                        to read a book month; this month I am reading Why We Sleep by Matthew Walker. Thank you for visiting.
+                        can follow the project on GitHub. Outside of technology I enjoy hiking, mountain biking, and surfing. My 2020 goal is
+                        to improve my photography. Thank you for visiting.
 
                         <Link to="/" className="blog__link">
                             <span className="blog__link__inner">

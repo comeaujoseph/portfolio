@@ -1,6 +1,15 @@
 
 .blog-post {
     font-size: $font-size-4;
+    margin-top: 10px;
+    padding-top: 20px;
+    border-top: 1px solid;
+
+    @media only screen and (min-width: 769px) {
+        margin-top: 0px;
+        padding-top: 0px;
+        border-top: none;
+    }
 }
 
 .blog-post__inner {

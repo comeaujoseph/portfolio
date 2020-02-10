@@ -8,6 +8,7 @@ import About from './components/pages/about';
 // posts
 import P120119 from './components/pages/120119';
 import P121519 from './components/pages/121519';
+import P020920 from './components/pages/020920';
 
 class App extends Component {
     render () {
@@ -19,6 +20,7 @@ class App extends Component {
                         <Route exact path="/"><Home /></Route>
                         <Route path="/post/120119"><P120119 /></Route>
                         <Route path="/post/121519"><P121519 /></Route>
+                        <Route path="/post/020920"><P020920 /></Route>
                     </Layout>
                 </Switch>
             </BrowserRouter>
