@@ -30,7 +30,7 @@ const Layout = (props) => {
                     <h3 className="layout__left-body">
                         My name is Joey Comeau, I am a software developer and web designer based in San Franisco, CA. I'm currently
                         working at <a href="https://www.barracuda.com" target="_blank"><em>Barracuda Networks</em></a>, where I am the lead developer
-                        and architect for multiple microservices. In my free time, I work on <a href="https://github.com/comeaujoseph" target="_blank"><em>xyz</em></a>,
+                        and architect for multiple microservices. In my free time, I work on <a href="https://github.com/comeaujoseph/xyz-design" target="_blank"><em>xyz</em></a>,
                         an open source design system.
                     </h3>
                     <h3 className="layout__left-more-info">
