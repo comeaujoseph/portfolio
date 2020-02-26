@@ -39,6 +39,7 @@ const Layout = (props) => {
 
                     <ul>
                         <li><a href="https://github.com/comeaujoseph" target="_blank">github.com/comeaujoseph</a></li>
+                        <li><a href="https://www.instagram.com/joey.comeau/" target="_blank">instagram.com/joey.comeau</a></li>
                         <li><a href="https://www.linkedin.com/in/joey-comeau-27329390" target="_blank">linkedin.com/joeycomeau</a></li>
                         <li><a href="https://hub.docker.com/u/jcomeau" target="_blank">hub.docker.com/jcomeau</a></li>
                         <li><a href="mailto:comeau.joey@gmail.com" target="_top">comeau.joey@gmail.com</a></li>
@@ -47,6 +48,7 @@ const Layout = (props) => {
                         <Tag>Kubernetes</Tag>
                         <Tag>NGINX</Tag>
                         <Tag>Java</Tag>
+                        <Tag>React.js</Tag>
                     </Tags>
                 </div>
             </section>

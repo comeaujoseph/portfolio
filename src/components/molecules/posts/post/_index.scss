@@ -32,6 +32,9 @@
 
 .post__title {
     font-weight: 600;
+    @media only screen and (max-width: 500px) {
+        max-width: 200px;
+    }
 }
 
 .post__summary {
