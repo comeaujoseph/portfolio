@@ -140,57 +140,12 @@ class P022320 extends Component {
                         <code className="language-json">  "test": "echo \"Error: no test specified\" && exit 1",</code>
                         <code className="language-json">  "start": "webpack-dev-server --mode development",</code>
                         <code className="language-json">  "debug": "webpack --display-error-details",</code>
-                        <code className="language-json">  "format": "prettier --write \"src/**/*.jsx\"",</code>
-                        <code className="language-json">  "eslint-fix": "eslint --fix \"src/**/*.jsx\"",</code>
                         <code className="language-json">  "build": "webpack --mode production"</code>
                         <code className="language-json">{"}"}</code>
                     </pre>
                     To start the development server run the following command in your projects root directory:
                     <pre>
                         <code className="language-bash">$ npm run start</code>
-                    </pre>
-                </div>
-
-                <div style={{ margin: "20px 0" }}>
-                    <h3 className="blog-post__section-header">Recommended Dependencies</h3>
-                    ESLint
-                    <br/>
-                    A program that checks our JavaScript code for any error or warning that can cause bugs. 
-                    <pre>
-                        <code className="language-bash">$ npm install --save-dev eslint eslint-loader babel-eslint eslint-config-react eslint-plugin-react</code>
-                    </pre>
-                    <ul className="blog-post__list">
-                        <li>eslint: the core dependency for all functionalities</li>
-                        <li>eslint-loader: enables us to hook eslint into webpack</li>
-                        <li>babel-eslint: a parser that enables eslint to lint all valid ES6+ codes</li>
-                        <li>eslint-config-react & eslint-plugin-react: used to enable ESLint to use pre-made rules</li>
-                    </ul>
-                    Create the eslint configuration file .eslintrc with the following instructions: <a href="https://github.com/comeaujoseph/react.js-example/blob/master/.eslintrc" target="_blank">.eslintrc</a>
-                    <br/>
-                    Rather than specifying our own rules manually, we simply extend react rules which were made available by eslint-config-react and eslint-plugin-react.
-                    The config is basically saying,
-                    <div style={{ margin: "10px 15px" }}>
-                        “Hey ESLint, please parse the code using babel-eslint before you check it, and when you’re checking it,
-                        please check if all the rules from our React rules config is passed. Take global variables from the environment of browser and node.
-                        Oh, and if it’s React code, take the version from the module itself. That way the user won’t have to specify the version manually.”
-                    </div>
-                    Unfortunately the only way to really figure out how to fix ESLint errors is by looking at the documentation for rules. There’s a
-                    quick way to fix ESLint errors by using eslint—fix, which is part of script we added to the package.json file.
-
-                    <br/>
-                    <br/>
-                    Prettier
-                    <br/>
-                    Install the dependency locally and use the — save-exact argument since Prettier introduces stylistic changes in patch releases.
-                    <pre>
-                        <code className="language-bash">$ npm install --save-dev --save-exact prettier</code>
-                    </pre>
-                    Create the prettier configuration file .prettierrc with the following instructions: <a href="https://github.com/comeaujoseph/react.js-example/blob/master/.prettierrc" target="_blank">.prettierrc</a>
-                    <br/>
-                    The rules means that we want to add semicolon for the end of every statement, use a single quote whenever appropriate and put trailing
-                    commas for multi-line ES5 code like objects or arrays. You can prettify the code by running the script from the package.json file:
-                    <pre>
-                        <code className="language-bash">$ npm run format</code>
                     </pre>
                 </div>
 
