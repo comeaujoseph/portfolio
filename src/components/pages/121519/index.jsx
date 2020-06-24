@@ -45,7 +45,7 @@ class P121519 extends Component {
                     <a href="https://docs.nginx.com/nginx/admin-guide/load-balancer/using-proxy-protocol/" target="_blank"> Following the instructions provided by NGINX,</a> I
                     was able to get everything working. I wasn’t completely satisfied with this option because the NGINX configuration file does not work with Docker, which
                     I use for testing. That is when I came across the AWS NLB solution, which preservers the client IP without any additional configurations. This means I do
-                    not have separate NGINX.conf files for k8s and Docker. In the service YAML file I specify the load balancer type and set the spec.externalTrafficPolicy to Local:
+                    not have maintain separate NGINX.conf files for k8s and Docker. In the service YAML file I specify the load balancer type and set the spec.externalTrafficPolicy to Local:
                 </p>
 
                 <pre>

@@ -10,6 +10,7 @@ import P120119 from './components/pages/120119';
 import P121519 from './components/pages/121519';
 import P020920 from './components/pages/020920';
 import P022320 from './components/pages/022320';
+import P041220 from './components/pages/041220';
 
 class App extends Component {
     render () {
@@ -24,6 +25,7 @@ class App extends Component {
                             <Route path="/post/121519" component={P121519} />
                             <Route path="/post/020920" component={P020920} />
                             <Route path="/post/022320" component={P022320} />
+                            <Route path="/post/041220" component={P041220} />
                             <Redirect from="*" to="/" />
                         </Switch>
                     </Layout>

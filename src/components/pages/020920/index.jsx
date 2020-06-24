@@ -45,8 +45,12 @@ class P020920 extends Component {
 
                 <h3 className="code-block-header" />
                 <pre>
-                    <code className="language-bash">$ sh ./threaddump_linux-continuous.sh PID > dump.log</code>
+                    <code className="language-bash">$ sh ./threaddump_linux-continuous.sh PID</code>
                 </pre>
+
+                <div className="blog-post__note">
+                    <b>!!</b> The thread dumps will be in the file specified in the systemd file: /temp/jvmoutput.log <b>!!</b>
+                </div>
 
                 <p>
                     I let the script run for about 5 minutes to make sure it captured a majority of the operations performed by
@@ -72,7 +76,7 @@ class P020920 extends Component {
                     until it finds an end-of-line in the input, but there is no guarantee that the data will come in at line boundaries.
                     This will cause issues if the server that you are communicating does not properly end the line or close the communication.
                     To solve this issue we wrote a custom Reader to handle the stream of data returned by the service to append a newline.
-                    We would then set a flag (done) to true indicating that readLine is ready to be used.
+                    We then set a flag (done) to true indicating that readLine is ready to be used.
                     This tweak guaranteed that the readLine() would always have a closing character preventing it from blocking. CPU usage
                     was brought down to less than 10% allowing us to cut infrastructure cost, while at the same time expand our capcity.
                 </p>

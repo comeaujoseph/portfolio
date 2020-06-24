@@ -31,6 +31,11 @@ class Home extends Component {
                         summary="A React.js browser application setup guide"
                         date="02.23.2020"
                         link="/post/022320" />
+                    <Post
+                        title="React.js: Lint"
+                        summary="Setup linting for a React.js browser application"
+                        date="04.12.2020"
+                        link="/post/041220" />
                 </Posts>
             </div>
         );

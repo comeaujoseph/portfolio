@@ -172,16 +172,14 @@ class P120119 extends Component {
                 </pre>
 
                 <p>
-                    In the above code snippet, the pod only had access to the original volume size. To fix this the filesystem to be expanded
+                    In the above code snippet, the pod only had access to the original volume size. To fix this the filesystem had to be expanded
                     to allow the additional space on the volume to be usable by the pod. Kubernetes usually takes care of this for you but since
                     I manually increased the EBS volume in the AWS console this did not happen. Expanding a file system requires elevated privileges
                     not available from a container. You need to directly connect to the node, which was not an option for me. I created these
-                    nodes in AWS and did not provided SSH credentials at node creation time. To get around this, I can create a privileged pod
-                    that will run on the same node that has the volume attach to it. This privileged pod will allow to gain root access on
-                    the node to resize the filesystem.  Download the privileged
+                    nodes in AWS and did not provided SSH credentials at node creation time. To get around this, I created a privileged pod
+                    that will run on the same node that has the volume attach to it. This privileged pod will give me root access
+                    and the ability to resize the filesystem.  Download the privileged
                     pod YAML <a href="https://gist.github.com/comeaujoseph/d29dfc253122bef324cd03de75685c1e" target="_blank">here</a>.
-                    Change the instance ID in the file to the node that is running the pod with the attached volume.
-                    Login into the pod and resize the filesystem:
                 </p>
                 <pre>
                     <code className="language-yaml">$ kubectl create -f privileged-pod.yaml</code>
